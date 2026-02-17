@@ -33,6 +33,38 @@ mern-project/
 
 ## Installation & Setup
 
+## 🔧 Installation & Setup
+
+### 1. Clone the Repository
+
+git clone https://github.com/HarleyNaveen/mern-project.git
+cd mern-project
+
+---
+
+### 2. Backend Setup
+
+cd backend
+npm install
+
+Create a .env file inside the backend folder and add:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+
+Then start backend:
+
+npm start
+
+---
+
+### 3️. Frontend Setup
+
+cd frontend/vite-project
+npm install
+npm run dev
+
+
 ### Backend Setup
 
 cd backend  
